@@ -1,0 +1,48 @@
+:css
+  html, body {
+    height: 100%;
+    font-family: 'Varela Round' sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 5%;
+    font-size: 3rem;
+    display: inline-block;
+  }
+  h1 div {
+    position: relative;
+    float: left;
+  }
+  h1 div:first-child {
+    color: #3498db;
+    margin-right: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: gray;
+    text-transform: uppercase;
+  }
+
+  .delay-1 {
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+  }
+
+= render 'welcome/menu'
+%link{:href => "http://fonts.googleapis.com/css?family=Varela+Round", :rel => "stylesheet", :type => "text/css"}
+%link{:href => "http://daneden.github.io/animate.css/animate.min.css", :rel => "stylesheet", :type => "text/css"}
+%h1
+  .animated.fadeInLeft Super
+  .animated.fadeInRight TUNER
+%p.animated.fadeInUp.delay-1 WAZZZUP
+%footer
+  Created BY Joe Chainz
