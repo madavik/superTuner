@@ -1,6 +1,14 @@
 ---
 frontPhoto.png: frontPhoto.png
 frontPhoto/index.png: frontPhoto.png
+jay.jpg: jay.jpg
+jay/index.jpg: jay.jpg
+joeChainz.jpg: joeChainz.jpg
+joeChainz/index.jpg: joeChainz.jpg
+joeChainz.png: joeChainz.png
+joeChainz/index.png: joeChainz.png
+jordan.jpg: jordan.jpg
+jordan/index.jpg: jordan.jpg
 rails.png: rails.png
 rails/index.png: rails.png
 application.js: application.js
