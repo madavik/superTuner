@@ -1,4 +1,6 @@
 ---
+frontPhoto.png: frontPhoto.png
+frontPhoto/index.png: frontPhoto.png
 rails.png: rails.png
 rails/index.png: rails.png
 application.js: application.js
