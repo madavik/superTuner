@@ -29,9 +29,20 @@
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
   }
+  .cover{
+    height: 280px;
+    width: 100%;
+    background-color: #F9F9F9;
+    overflow:auto;
+    margin:auto;
+  }
+  .cover-photo{
+    height:280px;
+  }
 
   footer {
-    position: absolute;
+    position:absolute;
+    color: #bbb;
     bottom: 2rem;
     width: 100%;
   }
@@ -43,5 +54,8 @@
   .animated.fadeInLeft Super
   .animated.fadeInRight TUNER
 %p.animated.fadeInUp.delay-1 #KeepTuningKool
+.cover
+  =image_tag "frontPhoto.png", :class => "cover-photo"
+%br
 %footer
   Created By Joe Chainz
